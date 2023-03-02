@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.set-cards{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.set-cards img{
+    display: inline;
+}
+.joker{
+    z-index: 1;
+    rotate: 45deg;
+    transition-property: transform, z-index;
+    transition-duration: 2s;
+}
+.joker:hover{
+    z-index:6;
+    transform: rotate(360deg) scale(1.25);
+}
+.king{
+    z-index: 2;
+    rotate: 45deg;
+    transition-property: transform, z-index;
+    transition-duration: 2s;
+}
+.king:hover{
+    z-index: 7;
+    transform: rotate(360deg) scale(1.25);
+}
+.queen{
+    z-index: 3;
+    rotate: 45deg;
+    transition-property: transform, z-index;
+    transition-duration: 2s;
+}
+.queen:hover{
+    z-index: 8;
+    transform: rotate(360deg) scale(1.25);
+}
+.joker2{
+    z-index: 4;
+    rotate: 45deg;
+    transition-property: transform, z-index;
+    transition-duration: 2s;
+}
+.joker2:hover{
+    z-index: 9;
+    transform: rotate(360deg) scale(1.25);
+}
+.ace{
+    z-index: 5;
+    rotate: 45deg;
+    transition-property: transform, z-index;
+    transition-duration: 2s;
+}
+.ace:hover{
+    z-index: 10;
+    transform: rotate(360deg) scale(1.25);
+}
+
+
+
